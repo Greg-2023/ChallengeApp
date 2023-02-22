@@ -17,4 +17,3 @@ else if (sex == "M" && age < 18)
 {
     Console.WriteLine("Niepełnoletni Mężczyzna");
 }
-// comments
