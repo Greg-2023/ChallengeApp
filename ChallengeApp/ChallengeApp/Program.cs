@@ -1,29 +1,8 @@
-﻿int number01 = 60;
-int number02 = 17;
-int number03 = 90;
-int number04 = 85;
-int number05 = 25;
-
-Console.WriteLine("Entered numbers: " + number01 + " " + number02 + " " + number03 + " " + number04 + " " + number05);
-
-if (number01 < number02)
-{
-}
-else number01 = number02;
-
-if (number01 < number03)
-{
-}
-else number01 = number03;
-
-if (number01 < number04)
-{
-}
-else number01 = number04;
-
-if (number01 < number05)
-{
-}
-else number01 = number05;
-
-Console.WriteLine("Minimum value is " + number01);
+﻿var number01 = 2;
+var number02 = 5;
+var number03 = 3;
+var number04 = 3;
+var number05 = 5;
+var total = number01 + number02 + number03 + number04 + number05;
+float average = total / 5;
+Console.WriteLine("Average is " + average);
