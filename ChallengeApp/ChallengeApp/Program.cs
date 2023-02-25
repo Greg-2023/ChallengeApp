@@ -1,38 +1,29 @@
-﻿//string name = "Ewa";
-//string sex = "F";
-//var age = 33;
+﻿int number01 = 60;
+int number02 = 70;
+int number03 = 90;
+int number04 = 85;
+int number05 = 25;
 
+Console.WriteLine("Entered numbers: " + number01 + " " + number02 + " " + number03 + " " + number04 + " " + number05);
 
-//if (name == "Ewa" && age == 33)
-//{
-//    Console.WriteLine("Ewa, lat 33");
-//    Console.WriteLine();
-//    Console.WriteLine();
-//}
-//else if (sex == "F" && age < 30)
-//{
-//    Console.WriteLine("Kobieta poniżej 30 lat");
-//}
-//else if (sex == "M" && age < 18)
-//{
-//    Console.WriteLine("Niepełnoletni Mężczyzna");
-//}
-
-
-
-User user1 = new User("Adam");
-User user2 = new User("Monika");
-User user3 = new User("Zuzia");
-User user4 = new User("Damian");
-
-class User
+if (number01 > number02)
 {
-    private string login;
-    private string password;
-    private string name;
-
-    public User(string login)
-    {
-        this.login = login;
-    }
 }
+else number01 = number02;
+
+if (number01 > number03)
+{
+}
+else number01 = number03;
+
+if (number01 > number04)
+{
+}
+else number01 = number04;
+
+if (number01 > number05)
+{
+}
+else number01 = number05;
+
+Console.WriteLine("Maximal number is " + number01);
